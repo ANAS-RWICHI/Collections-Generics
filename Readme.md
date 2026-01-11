@@ -24,7 +24,7 @@ The project is organized into the following packages and files based on the exer
     * [cite_start]**Modify:** Updates a product at a specific index[cite: 14].
     * [cite_start]**Search:** Finds a product by the name entered by the user[cite: 15].
 
-* ![Exercise 1 Result](TP4/screenshots/Screenshot 1.png)
+* ![Exercise 1 Result](screenshots/Screenshot 1.png)
 
 #### 2. Map Management (Student Grades)
 **File:** `TP4/StudentsGrades.java`
@@ -46,7 +46,7 @@ The project is organized into the following packages and files based on the exer
     * [cite_start]**Populate:** Adds student names to `groupA` and `groupB`[cite: 31, 33].
     * [cite_start]**Intersection:** Displays names present in both groups (`retainAll`)[cite: 34].
     * [cite_start]**Union:** Displays all unique names from both groups (`addAll`)[cite: 35].
-* ![Exercise 3 Result](TP4/screenshots/Screenshot 2026-01-11 204342.png)
+* ![Exercise 3 Result](screenshots/Screenshot 2026-01-11 204342.png)
 ---
 
 ### Part 2: Generics
@@ -61,7 +61,7 @@ The project is organized into the following packages and files based on the exer
     * [cite_start]`getElement(int index)`: Retrieves an element by position[cite: 46].
     * [cite_start]`getSize()`: Returns the number of stored elements[cite: 48].
 * [cite_start]**Test Application:** Verified with `Integer`, `String`, and `Double` types[cite: 50].
-* ![Exercise 4 Result](TP4/screenshots/Screenshot 1.png)
+* ![Exercise 4 Result](screenshots/Screenshot 1.png)
 #### 2. Generic Interface Implementation (Product Management)
 **File:** `TP4/Generics/MetierProduitImpl.java` & `TP4/Generics/IMetier.java`
 **Objective:** Implement a generic business interface for a specific `Product` entity.
@@ -75,14 +75,15 @@ The project is organized into the following packages and files based on the exer
     3.  [cite_start]Add new product[cite: 65].
     4.  [cite_start]Delete product by ID[cite: 66].
     5.  [cite_start]Exit[cite: 67].
-* ![Exercise 1 Result](TP4/screenshots/Screenshot 2026-01-11 204831.png)
-* * ![Exercise 1 Result](TP4/screenshots/Screenshot 2026-01-11 211220.png)
-* * ![Exercise 1 Result](TP4/screenshots/Screenshot 2026-01-11 211406.png)
-* * * ![Exercise 1 Result](TP4/screenshots/Screenshot 2026-01-11 211727.png)
+* ![Exercise 1 Result](screenshots/Screenshot 2026-01-11 204831.png)
+* * ![Exercise 1 Result](screenshots/Screenshot 2026-01-11 211220.png)
+* * ![Exercise 1 Result](screenshots/Screenshot 2026-01-11 211406.png)
+* * * ![Exercise 1 Result](screenshots/Screenshot 2026-01-11 211727.png)
 ---
 
 ## How to Run
 1.  Navigate to the project root directory.
 2.  Compile the desired application file (e.g., `javac TP4/StudentsGrades.java`).
 3.  Run the class file (e.g., `java TP4.StudentsGrades`).
+
 4.  For the Generics exercise, navigate to the Generics package (e.g., `java TP4.Generics.ProductApp`).
